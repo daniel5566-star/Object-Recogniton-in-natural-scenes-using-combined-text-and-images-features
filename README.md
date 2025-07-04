@@ -1,10 +1,8 @@
 # Object-Recogniton-in-natural-scenes-using-combined-text-and-images-features
 Detecting data elements using both visual and embedded text elements 
 # 🌄 Natural Scene Recognition using Convolutional Neural Networks
-
  Description
 This project is focused on the classification of natural scene images into six categories: buildings, forest, glaciers, mountains and streets. It uses a convolutional neural network (CNN) model trained on a condensed version of the Intel Image Classification Dataset and features a web interface built with streamlit.
-
 Project structure
 ├── dataset/
 │   └── (image folders: buildings, forest, glacier, etc.)
@@ -20,14 +18,12 @@ Project structure
 - Matplotlib
 - PIL (Python Imaging Library)
 - Streamlit (for the web app)
-
 Model Architecture
 - 4 Convolutional Layers
 - LeakyReLU activation
 - MaxPooling layers
 - Fully connected Dense layers with Dropout
 - Softmax output layer for classification
-
 How to Run the Project
 Clone the Repository
 ```bash
